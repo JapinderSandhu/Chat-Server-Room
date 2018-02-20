@@ -1,0 +1,47 @@
+/*
+*	Japinder Sandhu
+*	101021899
+*	COMP2406 - Assignment 3
+*	Due: March 20th, 2017
+*
+*/
+
+/*All these styling elements manipulate the text boxes to give the
+appearence of a chat server*/
+#inputText, #chatLog{
+	border:solid 1px black;
+	width:100%;
+}
+
+#chatLog{
+	height:200px;
+}
+
+#contents{
+	width:100%;
+	height:200px;
+}
+
+#chatLogDiv{
+	float:left;
+	width:80%;
+	height:100%;
+}
+
+#userListDiv{
+	overflow:auto;
+	height:100%;
+	border:solid 1px black;
+}
+
+/*Styles the title at the top of the page*/
+h1{
+	text-align:center;
+	font-family: Arial;
+}
+
+p{
+	text-align:center;
+	font-family: Arial;
+	font-size:20px
+}

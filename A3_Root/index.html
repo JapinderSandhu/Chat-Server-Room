@@ -1,0 +1,37 @@
+<!--
+*	Japinder Sandhu
+*	101021899
+*	COMP2406 - Assignment 3
+*	Due: March 20th, 2017
+*
+-->
+
+<!doctype html>
+<html>
+
+<!--Link all necessary elements in the head-->
+<head>
+	<meta charset = "utf8"/>
+	<title>Chatter</title>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<link type="text/css" rel="stylesheet" href="./style.css"/>
+	<script src="script.js"></script>
+</head>
+
+<!--Make the chat server boxes using multiple divs styled in the css-->
+<body>
+	<h1>TALK TO EACH OTHER</h1>
+
+	<div id="contents">
+		<div id="chatLogDiv">
+			<textarea id="chatLog"></textarea>
+			<input id="inputText">
+		</div>
+		<div id="userListDiv">
+			<p>ACTIVE USERS</p>
+			<ul id="userList"></ul>
+		</div>
+	</div>
+</body>
+</html>
